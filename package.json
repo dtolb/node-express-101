@@ -1,0 +1,27 @@
+{
+  "name": "node-express-101",
+  "version": "0.0.1",
+  "description": "My first express bandwidth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'no tests yet'",
+    "start": "node index.js",
+    "hello": "echo 'hello world'"
+  },
+  "keywords": [
+    "bandwidth",
+    "node",
+    "intro",
+    "express",
+    "calling",
+    "texting",
+    "auto-response"
+  ],
+  "author": "Dan Tolbert",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "node-bandwidth": "^2.3.2"
+  }
+}
