@@ -39,7 +39,7 @@ app.post("/call-callback", function (req, res) {
     var body = req.body;
     res.sendStatus(200);
     if (body.eventType === "answer"){
-        client.Call.speakSentence(body.callId, "I still like dogs better")
+        client.Call.speakSentence(body.callId, "I still really like dogs better")
         .then(function () {
             console.log("speakSentence sent");
         })
@@ -72,7 +72,7 @@ var sendMessage = function (params) {
     return client.Message.send({
         from : params.from,
         to   : params.to,
-        text : "404 Cats are Great",
+        text : "404 Cats are Great, but still not as awesome as dogs",
         media: "http://s.quickmeme.com/img/a8/a8022006b463b5ed9be5a62f1bdbac43b4f3dbd5c6b3bb44707fe5f5e26635b0.jpg"
     })
     .then(function(message){
