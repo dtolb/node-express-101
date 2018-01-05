@@ -58,7 +58,11 @@ POST http://8a543f5f.ngrok.io/create-call
 {
   "phoneNumber": "+19192223333"
 }
+```
 
+#### Returns
+
+```http
 201 Created
 {
   "from"        : "+17079311113",
