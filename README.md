@@ -53,7 +53,8 @@ npm start
 To create a call, we have to create a `POST` request to the service:
 
 ```http
-POST http://8a543f5f.ngrok.io/create-call
+POST http://8a543f5f.ngrok.io/create-call HTTP/1.1
+Content-Type: application/json;
 
 {
   "phoneNumber": "+19192223333"
@@ -63,7 +64,9 @@ POST http://8a543f5f.ngrok.io/create-call
 #### Returns
 
 ```http
-201 Created
+HTTP/1.1 201 Created
+Content-Type: application/json
+
 {
   "from"        : "+17079311113",
   "to"          : "+19197891146",
