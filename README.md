@@ -26,8 +26,6 @@ Be sure that the following environment variables are set. Learn how to set [envi
 
 [Ngrok](https://ngrok.com) is an awesome tool that lets you open up local ports to the internet.
 
-![Ngrok how](https://ngrok.com/static/img/demo.png)
-
 Once you have ngrok installed, open a new terminal tab and navigate to it's location on the file system and run:
 
 ```bash
