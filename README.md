@@ -78,6 +78,8 @@ Content-Type: application/json
 
 ### Sample Curl
 
+Change the `phoneNumber` value to the number you want to call, then use [curl](https://curl.haxx.se/) to make the request.
+
 ```bash
 curl -v POST http://8a543f5f.ngrok.io/create-call \
     -H "Content-type: application/json" \
