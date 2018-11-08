@@ -1,5 +1,3 @@
-// console.log('Hello World');
-
 var Bandwidth = require("node-bandwidth");
 
 var express = require("express");
@@ -21,7 +19,6 @@ app.use(bodyParser.json());
 app.set('port', (process.env.PORT || 3000));
 
 app.get("/", function (req, res) {
-    //console.log(req);
     res.send("Hello World");
 });
 
@@ -158,9 +155,3 @@ http.listen(app.get('port'), function(){
     console.log('listening on *:' + app.get('port'));
 });
 
-// var numbers = {
-//     from: "+13204601137",
-//     to: "+19197891146"
-// };
-
-// sendMessage(numbers);
